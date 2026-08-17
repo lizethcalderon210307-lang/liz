@@ -2,6 +2,7 @@ body {
     background-image: url(img/fondos.jpg);
     background-size: cover;
     background-position: center;
+    background-repeat: repeat-y;
 }
 
 h1 {
@@ -79,9 +80,7 @@ button {
 
 .contenedor {
     display: flex;
-    gap: 10px;
     justify-content: space-between;
-    flex-wrap: wrap;
 }
 @media (max-width: 600px) {
     .contenedor{
